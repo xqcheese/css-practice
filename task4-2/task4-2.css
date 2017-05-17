@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.wrap{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.main{
+    display: table-cell;
+    vertical-align: middle;
+}
+.inner{
+    background-color: #ccc;
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+   /* overflow: hidden;*/
+}
+.left-top{
+    background: #fc0;
+    height: 50px;
+    width: 50px;
+    border-radius: 0 0 50px 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.right-bottom{
+    background: #fc0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px 0 0 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
